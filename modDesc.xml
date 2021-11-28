@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>loki_79</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Grass Mowing</en>
+        <de>Gras Mähen</de>
+        <fr>Tonte De L'Herbe</fr>
+    </title>
+    <description>
+<en><![CDATA[This mod changes the minimum harvestable state for grass so that it can be cut at any stage of growth.
+
+Features:
+- Makes grass harvestable from the first stage of growth
+- Works with any mower or cutter
+- The yield is proportional to growth stage
+- Applies to crop grass and meadow grass
+- All other crops are unaffected
+]]>
+</en>
+<de><![CDATA[Diese Mod ändert den minimalen Erntezustand für Gras, so dass es in jedem Wachstumsstadium geschnitten werden kann.
+
+Merkmale:
+- Macht Gras ab dem ersten Wachstumsstadium erntbar
+- Funktioniert mit jedem Mäher oder Cutter
+- Der Ertrag ist proportional zum Wachstumsstadium
+- Gilt für Acker- und Wiesengras
+- Alle anderen Kulturen sind davon nicht betroffen
+]]>
+</de>
+<fr><![CDATA[Ce mod modifie le stade minimum de récolte de l'herbe afin qu'elle puisse être coupée à n'importe quel stade de croissance.
+
+Caractéristiques:
+- Rend l'herbe récoltable dès le premier stade de croissance
+- Fonctionne avec n'importe quelle tondeuse ou faucheuse
+- Le rendement est proportionnel au stade de croissance
+- S'applique à l'herbe cultivée et à l'herbe des prés
+- Les autres cultures ne sont pas affectées
+]]>
+</fr>
+    </description>
+
+	<multiplayer supported="true" />
+	<iconFilename>modIcon.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="GrassMowing.lua" />
+	</extraSourceFiles>
+</modDesc>

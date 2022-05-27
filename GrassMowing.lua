@@ -48,6 +48,17 @@ function GrassMowing:update(dt)
 			end
 		end
 		
+		if g_currentMission.foliageSystem ~= nil then
+			local decoFoliages = g_currentMission.foliageSystem:getDecoFoliages()
+
+			for _, decoFoliage in pairs(decoFoliages) do
+				if decoFoliage.layerName=="decoFoliage" or decoFoliage.layerName=="decoBush" then
+					decoFoliage.mowable = true
+					print("MOWABLE: " .. decoFoliage.layerName )
+				end
+			end
+		end
+		
 		self.initialised = true
 	end
 end
